@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Blog | PEN OF INSHRAH</title>
+</head>
+<body>
+    <!-- header section -->
+    <section class="header">
+        <nav>
+            <div class="header-text">
+                PEN OF INSHRAH
+            </div>
+            
+           
+            <div class="navigation" id ="navigation">
+                <div class="crosses" onclick="hidemenu()">
+                    <div class="cross1"></div>
+                    <div class="cross2"></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="menu" onclick="showmenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </section>
+    <!-- header section closing -->
+
+
+    <!-- page content -->
+    <section class ="cards">
+        <div class="card" id="card1">
+            
+            <h1>Falling down on knees</h1>
+            <p>The last 2 years proved to be the failing and falling years for me. I was knocked down on my knees.</p>
+            <a href="alfaz.html">
+                <div class="btn">
+                    Read more
+                </div>
+            </a>
+        </div>
+        <div class="card" id="card2">
+            <h1>زوال</h1>
+            <p>میرا اب زوال شروع ہورہا ہے اور زوال کے دن انسان کو اکیلے ہی گزارنا چاہئیں۔ زوال میں ساتھی مل جاۓ تو پتہ کیسے چلے گا کے زوال آگیا ہے</p>
+            <a href="zawal.html">
+                <div class="btn" >
+                    Read more
+                </div>
+            </a>
+        </div>
+        <div class="card" id="card3">
+            <h1>Happiness</h1>
+            <p>Have you ever seen your friend sharing little details about her day and that sparkle in her eyes made you smile?</p>
+            <a href="happiness.html">
+                <div class="btn" >
+                    Read more
+                </div>
+            </a>
+        </div>
+        <div class="card" id="card2">
+            <h1>خواب</h1>
+            <p>اس حقیقت سے بہت دیر بعد  شناسائی ہوئ ہے کہ زندگی خوابوں کے سہارے پر ٹیک لگاۓ گزرتی ہے. وہ ادھورے سہارے والے خواب،</p>
+            <a href="khuab.html">
+                <div class="btn" >
+                    Read more
+                </div>
+            </a>
+        </div>
+        <div class="card" id="card4">
+            <h1>صبر زندگی ہے</h1>
+            <p>اصل بات یہ ہے کہ تم جلد ملنے والی چیز ( یعنی دنیا ) سے محبت کرتے ہو، اور دیر سے ملنے والی چیز کو چھوڑ دیتے ہو</p>
+            <a href="sabar.html">
+                <div class="btn" >
+                    Read more
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- page content closing -->
+
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                PEN OF INSHRAH
+            </div>
+            <div class="contact-info">
+                <br>
+                <h1>CONTACT</h1>
+                <br>
+                <h4>Contact No: 03124740576</h4>
+                <br>
+                <h4>Email: inshrahnawaz162@gmail.com</h4>
+            </div>
+            <div class="quick-links">
+                <br>
+                <h1>QUICK LINKS</h1>
+                <br>
+                <li><a href="index.html">Home</a></li>
+                <br>
+                <li><a href="blog.html">Blog</a></li>
+                <br>
+            </div>
+        </div>
+        <div class="additional">
+            
+            <div class="icons">
+                <a href="https://www.facebook.com/Inshrah-Writes-156242538369559" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/inshrah_nawaz?t=kQ4ycK9DwphTvrOeCjHNRw&s=09" class="fa fa-twitter"></a>
+                <a href="https://youtube.com/channel/UCJiK2KJ8vUt_doEBZSEPWDw" class="fa fa-youtube"></a>
+                <a href="https://instagram.com/inshrah.nawaz?utm_medium=copy_link" class="fa fa-instagram"></a>
+            </div>
+            <div class="copy">
+            <hr>
+                <p>&copy2021-All rights reserved - PEN OF INSHRAH</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section closing -->
+
+
+    <!-- java script for toggle menu -->
+    <script>
+        
+        var navigation = document.getElementById("navigation");
+        function showmenu(){
+            navigation.style.right="0px";
+        }
+        function hidemenu(){
+            // navigation.style.display="none";
+            navigation.style.right="-300px";
+        }
+    </script>
+    <!-- java script for toggle menu closing-->
+
+</body>
+</html>
